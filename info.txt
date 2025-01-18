@@ -1,5 +1,17 @@
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 python -m venv .venv
 .venv/Scripts/Activate
+
+descompactar a base-letras.zip -> se quiser ver a base-letras
+
+criar a pasta imagens-teste, ajeitado, identificado, palavras, letras -> pra poder rodar o tratar_imagem, separar_palavras, separar_letras
+criar a pasta testes-metodo, testes-metodo2 -> pra poder rodar o teste_metodo
+
+
 pip install opencv-python
 pip install Pillow
+pip install scikit-learn
+pip install imutils
+pip install numpy
+pip install tensorflow
+pip install keras
